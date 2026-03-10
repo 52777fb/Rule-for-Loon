@@ -1,0 +1,48 @@
+# NAME: Bybit_Super_Rule
+# UPDATED: 2026-03-10
+# DESC: Unified Bybit rules for Loon/Clash (No Group Name)
+
+# --- 域名匹配 ---
+DOMAIN,bybit-exchange.github.io
+DOMAIN,api3.bybit.biz
+DOMAIN,monitor-frontend-collector.a.bybit-aws.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.net
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,bybitapi.com
+DOMAIN-SUFFIX,bybits.org
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.co.kr
+DOMAIN-SUFFIX,bybit.com.br
+DOMAIN-SUFFIX,geetest.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+
+# --- IP 段 ---
+IP-CIDR,13.32.121.6/32,no-resolve
+IP-CIDR,13.33.187.108/32,no-resolve
+IP-CIDR,15.109.230.182/32,no-resolve
+IP-CIDR,43.133.238.145/32,no-resolve
+IP-CIDR,43.133.241.84/32,no-resolve
+IP-CIDR,142.251.215.234/32,no-resolve
+IP-CIDR,3.160.150.37/32,no-resolve
+
+# --- 行为特征 (仅限支持的客户端) ---
+USER-AGENT,Bybit*
+PROCESS-NAME,com.bybit.app
+PROCESS-NAME,com.bybit.global
