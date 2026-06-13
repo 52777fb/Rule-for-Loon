@@ -1,0 +1,9 @@
+# NAME: US_Supplementary_Rule
+# UPDATED: 2026-06-13
+# DESC: US Supplementary rules for Loon
+
+# --- GoMoney 钱包 ---
+DOMAIN-KEYWORD,gomoney
+
+# --- BitGet 钱包 ---
+DOMAIN-KEYWORD,bitkeep
