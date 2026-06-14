@@ -1,3 +1,0 @@
-# --- 苹果推送服务 ---
-DOMAIN-SUFFIX,push.apple.com,PROXY
-DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
