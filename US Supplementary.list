@@ -7,3 +7,7 @@ DOMAIN-KEYWORD,gomoney
 
 # --- BitGet 钱包 ---
 DOMAIN-KEYWORD,bitkeep
+
+# --- 苹果推送 ---
+DOMAIN-SUFFIX,push.apple.com,PROXY
+DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
