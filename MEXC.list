@@ -16,3 +16,6 @@ DOMAIN-SUFFIX,mxcapi.com
 
 # CDN
 DOMAIN-SUFFIX,mexccdn.com
+DOMAIN,futures.coldbookfly.ru
+DOMAIN,otc.coldbookfly.ru
+DOMAIN,jpush.gdiii.xyz
