@@ -1,0 +1,18 @@
+# MEXC 主域名
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.link
+DOMAIN-SUFFIX,mexc.app
+DOMAIN-SUFFIX,mexc.live
+DOMAIN-SUFFIX,mexc.zone
+
+# MXC 相关域名
+DOMAIN-SUFFIX,mxc.com
+DOMAIN-SUFFIX,mxc.ai
+
+# API
+DOMAIN-SUFFIX,mexc-api.com
+DOMAIN-SUFFIX,mexcapi.com
+DOMAIN-SUFFIX,mxcapi.com
+
+# CDN
+DOMAIN-SUFFIX,mexccdn.com
