@@ -18,19 +18,9 @@ DOMAIN-SUFFIX,mxcapi.com
 DOMAIN-SUFFIX,mexccdn.com
 DOMAIN,futures.coldbookfly.ru
 DOMAIN,otc.coldbookfly.ru
-DOMAIN,jpush.gdiii.xyz
 
 # MEXC 候选业务接口
 DOMAIN-SUFFIX,coldbookfly.ru
 DOMAIN-SUFFIX,mocortech.com
 DOMAIN-SUFFIX,flytogarden.com
 DOMAIN-SUFFIX,greentreeone.com
-
-# SDK 服务（此前被 REJECT）
-DOMAIN,watchman-sdk.gotoda.co
-
-# 独立 IP（此前命中 DIRECT）
-IP-CIDR,119.28.115.115/32
-
-# AWS 相关连接（精确主机）
-DOMAIN,ov-1d104299d2a447049cdc73700c9309f7.ecs.us-west-2.on.aws
