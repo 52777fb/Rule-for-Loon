@@ -5,10 +5,6 @@ DOMAIN-SUFFIX,mexc.app
 DOMAIN-SUFFIX,mexc.live
 DOMAIN-SUFFIX,mexc.zone
 
-# MXC 相关域名
-DOMAIN-SUFFIX,mxc.com
-DOMAIN-SUFFIX,mxc.ai
-
 # API
 DOMAIN-SUFFIX,mexc-api.com
 DOMAIN-SUFFIX,mexcapi.com
@@ -18,5 +14,7 @@ DOMAIN-SUFFIX,mxcapi.com
 DOMAIN-SUFFIX,mexccdn.com
 
 # MEXC 候选业务接口
+DOMAIN-SUFFIX,coldbookfly.ru
+DOMAIN-SUFFIX,mocortech.com
 DOMAIN-SUFFIX,flytogarden.com
 DOMAIN-SUFFIX,greentreeone.com
