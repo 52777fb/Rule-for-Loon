@@ -1,20 +1,27 @@
-# MEXC 主域名
-DOMAIN-SUFFIX,mexc.com
-DOMAIN-SUFFIX,mexc.link
-DOMAIN-SUFFIX,mexc.app
-DOMAIN-SUFFIX,mexc.live
-DOMAIN-SUFFIX,mexc.zone
+# NAME: MEXC 完整版
 
-# API
-DOMAIN-SUFFIX,mexc-api.com
-DOMAIN-SUFFIX,mexcapi.com
+# 1. MEXC 自有域名
+# 关键词 mexc 已覆盖 mexc.com/.fm/.link/.app/.live/.zone
+# 以及 mexc-api.com、mexcapi.com、mexccdn.com、mexcsensors.com
+DOMAIN-KEYWORD,mexc
 DOMAIN-SUFFIX,mxcapi.com
 
-# CDN
-DOMAIN-SUFFIX,mexccdn.com
-
-# MEXC 候选业务接口
-DOMAIN-SUFFIX,coldbookfly.ru
+# 2. 业务接口 / CDN（抓包所得）
 DOMAIN-SUFFIX,mocortech.com
 DOMAIN-SUFFIX,flytogarden.com
 DOMAIN-SUFFIX,greentreeone.com
+DOMAIN-SUFFIX,hotbookzone.com
+DOMAIN-SUFFIX,coldbookfly.ru
+DOMAIN-SUFFIX,gotoda.co
+DOMAIN-SUFFIX,365huo.xyz
+DOMAIN-SUFFIX,ytoo.li
+DOMAIN-SUFFIX,goperp.exchange
+DOMAIN-SUFFIX,cloudfront.net
+
+# 3. 风控 / KYC / 日志（最容易暴露真实 IP）
+DOMAIN-SUFFIX,turingfraud.net
+DOMAIN-SUFFIX,sumsub.com
+DOMAIN-KEYWORD,sumsub
+DOMAIN-KEYWORD,datadoghq
+DOMAIN,molor-app-logs-default.ap-southeast-1.log.aliyuncs.com
+DOMAIN,molor-app-performance-project.ap-southeast-1.log.aliyuncs.com
