@@ -11,3 +11,6 @@ DOMAIN-KEYWORD,bitkeep
 # --- 苹果推送服务 ---
 DOMAIN-SUFFIX,push.apple.com,PROXY
 DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
+
+# Infini 核心域名
+DOMAIN-SUFFIX,infini.money
