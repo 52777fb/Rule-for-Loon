@@ -1,0 +1,56 @@
+payload:
+  # Google Antigravity - 2026-11-22
+  # Policy: Antigravity
+
+  # 1. Core backend
+- DOMAIN,cloudcode-pa.googleapis.com,Antigravity
+- DOMAIN,daily-cloudcode-pa.googleapis.com,Antigravity
+- DOMAIN,businessaicode.googleapis.com,Antigravity
+- DOMAIN,aiplatform.googleapis.com,Antigravity
+- DOMAIN,discoveryengine.googleapis.com,Antigravity
+
+  # 2. Regional and mTLS endpoints
+- DOMAIN,businessaicode.us.rep.googleapis.com,Antigravity
+- DOMAIN,businessaicode.eu.rep.googleapis.com,Antigravity
+- DOMAIN,businessaicode.mtls.googleapis.com,Antigravity
+- DOMAIN,aiplatform.us.rep.googleapis.com,Antigravity
+- DOMAIN,aiplatform.eu.rep.googleapis.com,Antigravity
+- DOMAIN,aiplatform.mtls.googleapis.com,Antigravity
+- DOMAIN,us-discoveryengine.googleapis.com,Antigravity
+- DOMAIN,eu-discoveryengine.googleapis.com,Antigravity
+- DOMAIN,discoveryengine.mtls.googleapis.com,Antigravity
+- DOMAIN,us-discoveryengine.mtls.googleapis.com,Antigravity
+- DOMAIN,eu-discoveryengine.mtls.googleapis.com,Antigravity
+
+  # 3. Product and configuration
+- DOMAIN-SUFFIX,antigravity.google,Antigravity
+- DOMAIN-SUFFIX,antigravity.google.com,Antigravity
+- DOMAIN,antigravity-unleash.goog,Antigravity
+- DOMAIN,aicode.googleapis.com,Antigravity
+
+  # 4. Updates
+- DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app,Antigravity
+- DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app,Antigravity
+
+  # 5. Additional backend candidates
+- DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com,Antigravity
+- DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com,Antigravity
+- DOMAIN,antigravity-pa.googleapis.com,Antigravity
+- DOMAIN,antigravity.googleapis.com,Antigravity
+- DOMAIN,cloudaicompanion.googleapis.com,Antigravity
+
+  # 6. Google OAuth
+- DOMAIN,oauth2.googleapis.com,Antigravity
+
+  # 7. Optional support and client services
+- DOMAIN,feedback-pa.googleapis.com,Antigravity
+- DOMAIN,firebaselogging-pa.googleapis.com,Antigravity
+
+  # Optional: enable only when the logs show a need
+  # DOMAIN,accounts.google.com,Antigravity
+  # DOMAIN,www.gstatic.com,Antigravity
+  # DOMAIN,ssl.gstatic.com,Antigravity
+  # DOMAIN,www.recaptcha.net,Antigravity
+  # DOMAIN,chromewebstore.google.com,Antigravity
+  # DOMAIN,play.googleapis.com,Antigravity
+  # DOMAIN,generativelanguage.googleapis.com,Antigravity
