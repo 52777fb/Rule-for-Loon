@@ -1,5 +1,5 @@
 # NAME: US_Supplementary_Rule
-# UPDATED: 2026-06-13
+# UPDATED: 2026-11-23
 # DESC: US Supplementary rules for Loon
 
 # --- GoMoney 钱包 ---
@@ -14,3 +14,11 @@ DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
 
 # Infini 核心域名
 DOMAIN-SUFFIX,infini.money
+
+# --- Gate 交易所 ---
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gateio.ws
+DOMAIN-SUFFIX,gate.io
+DOMAIN,gimg2.staticimgs.com
+DOMAIN,icon.staticimgs.com
+DOMAIN-SUFFIX,gateimg.com
