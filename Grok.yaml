@@ -1,4 +1,0 @@
-payload:
-  # --- 域名匹配 ---
-  - DOMAIN-SUFFIX,grok.com
-  - DOMAIN-SUFFIX,x.ai
