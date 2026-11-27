@@ -1,9 +1,0 @@
-# NAME: Priority-Reject
-
-payload:
-  # QUIC / HTTP3
-  - 'AND,((NETWORK,udp),(DST-PORT,443))'
-
-  # STUN / WebRTC
-  - 'DOMAIN-KEYWORD,stun'
-  - 'AND,((NETWORK,udp),(DST-PORT,3478))'
