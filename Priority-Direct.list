@@ -1,0 +1,6 @@
+# NAME: Priority-Direct
+# TOTAL: 1
+# Shared Clash / Loon direct exceptions for verified rule conflicts.
+# Place before Advertising; keep security rejection rules ahead where applicable.
+# Apple iCloud diagnostics: https://support.apple.com/zh-cn/101555
+DOMAIN,metrics.icloud.com
