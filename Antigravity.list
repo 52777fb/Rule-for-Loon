@@ -1,0 +1,55 @@
+# Google Antigravity - 2026-11-22
+# Policy: Antigravity
+
+# 1. Core backend
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN,discoveryengine.googleapis.com
+
+# 2. Regional and mTLS endpoints
+DOMAIN,businessaicode.us.rep.googleapis.com
+DOMAIN,businessaicode.eu.rep.googleapis.com
+DOMAIN,businessaicode.mtls.googleapis.com
+DOMAIN,aiplatform.us.rep.googleapis.com
+DOMAIN,aiplatform.eu.rep.googleapis.com
+DOMAIN,aiplatform.mtls.googleapis.com
+DOMAIN,us-discoveryengine.googleapis.com
+DOMAIN,eu-discoveryengine.googleapis.com
+DOMAIN,discoveryengine.mtls.googleapis.com
+DOMAIN,us-discoveryengine.mtls.googleapis.com
+DOMAIN,eu-discoveryengine.mtls.googleapis.com
+
+# 3. Product and configuration
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,aicode.googleapis.com
+
+# 4. Updates
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+
+# 5. Additional backend candidates
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+
+# 6. Google OAuth
+DOMAIN,oauth2.googleapis.com
+
+# 7. Optional support and client services
+DOMAIN,feedback-pa.googleapis.com
+DOMAIN,firebaselogging-pa.googleapis.com
+
+# Optional: enable only when the logs show a need
+# DOMAIN,accounts.google.com
+# DOMAIN,www.gstatic.com
+# DOMAIN,ssl.gstatic.com
+# DOMAIN,www.recaptcha.net
+# DOMAIN,chromewebstore.google.com
+# DOMAIN,play.googleapis.com
+# DOMAIN,generativelanguage.googleapis.com
