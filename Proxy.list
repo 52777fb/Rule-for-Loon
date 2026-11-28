@@ -58,3 +58,9 @@ DOMAIN-SUFFIX,ipify.com
 DOMAIN-SUFFIX,httpbin.org
 DOMAIN-SUFFIX,ident.me
 DOMAIN-SUFFIX,checkip.amazonaws.com
+
+# Additional IP and DNS checks
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,pixelscan.net
+DOMAIN-SUFFIX,myipstack.com
+DOMAIN-SUFFIX,dns-leak.com
