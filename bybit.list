@@ -1,10 +1,9 @@
 # NAME: Bybit_Super_Rule
-# UPDATED: 2026-03-10
+# UPDATED: 2026-11-28
 # DESC: Unified Bybit rules for Loon/Clash (No Group Name)
 
 # --- 域名匹配 ---
 DOMAIN,bybit-exchange.github.io
-DOMAIN,api3.bybit.biz
 DOMAIN,monitor-frontend-collector.a.bybit-aws.com
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
@@ -30,8 +29,6 @@ DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
 
 # --- IP 段 ---
 IP-CIDR,13.32.121.6/32,no-resolve
@@ -43,6 +40,16 @@ IP-CIDR,142.251.215.234/32,no-resolve
 IP-CIDR,3.160.150.37/32,no-resolve
 
 # --- 行为特征 (仅限支持的客户端) ---
-USER-AGENT,Bybit*
-PROCESS-NAME,com.bybit.app
-PROCESS-NAME,com.bybit.global
+# USER-AGENT,Bybit*
+# PROCESS-NAME,com.bybit.app
+# PROCESS-NAME,com.bybit.global
+
+# --- Regional services ---
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,manepa.jp
+DOMAIN-SUFFIX,spark-fintech.com
