@@ -1,9 +1,18 @@
 # NAME: Priority-Reject
+# STUN / TURN / WebRTC Protection
+# Clash / Mihomo only. Domain and port heuristics, not protocol detection.
 
 payload:
-  # QUIC / HTTP3
-  - 'AND,((NETWORK,udp),(DST-PORT,443))'
+  # STUN / TURN Domain
+  - 'AND,((NETWORK,udp),(DOMAIN-KEYWORD,stun))'
+  - 'AND,((NETWORK,udp),(DOMAIN-REGEX,(^|\.)turns?[0-9]*\.))'
 
-  # STUN / WebRTC
-  - 'DOMAIN-KEYWORD,stun'
+  # STUN / TURN Port
   - 'AND,((NETWORK,udp),(DST-PORT,3478))'
+  - 'AND,((NETWORK,udp),(DST-PORT,5349))'
+
+  # Google WebRTC
+  - 'AND,((NETWORK,udp),(DST-PORT,19302-19309))'
+
+  # Temporary QUIC Protection
+  - 'AND,((NETWORK,udp),(DST-PORT,443))'
