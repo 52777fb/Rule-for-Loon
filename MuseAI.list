@@ -1,0 +1,37 @@
+# NAME: MuseAI
+# Source: https://github.com/lixi333/muse-rules/blob/main/MuseAI-merged.list
+# Includes related Meta services and infrastructure.
+# TOTAL: 29
+
+# DOMAIN-SUFFIX
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbpigeon.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,hatch.club
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+# DOMAIN
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,node.hatch.one
