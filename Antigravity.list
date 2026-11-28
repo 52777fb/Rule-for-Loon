@@ -46,10 +46,17 @@ DOMAIN,feedback-pa.googleapis.com
 DOMAIN,firebaselogging-pa.googleapis.com
 
 # Optional: enable only when the logs show a need
-# DOMAIN,accounts.google.com
 # DOMAIN,www.gstatic.com
 # DOMAIN,ssl.gstatic.com
 # DOMAIN,www.recaptcha.net
 # DOMAIN,chromewebstore.google.com
 # DOMAIN,play.googleapis.com
 # DOMAIN,generativelanguage.googleapis.com
+
+# Authentication & Profile
+DOMAIN,accounts.google.com
+DOMAIN,www.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+
+# Regional Endpoint Fallback
+DOMAIN-KEYWORD,businessaicode
