@@ -1,6 +1,6 @@
 # NAME: Apple
 # UPDATED: 2026-11-28
-# TOTAL: 108
+# TOTAL: 123
 # Mainland China usage: global Apple infrastructure + mainland service and web domains.
 # Official: https://support.apple.com/zh-cn/101555
 # Reference: https://support.apple.com/en-us/101555
@@ -118,6 +118,27 @@ DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN,dispatcher.is.autonavi.com
+
+# Apple short links and verified brand / service aliases
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple-dns.com
+DOMAIN-SUFFIX,iphone.com
+DOMAIN-SUFFIX,applestore.com
+DOMAIN-SUFFIX,macbookair.com
+DOMAIN-SUFFIX,macbookpro.com
+
+# Mainland brand aliases; five Beats domains documented as Apple-held serverHold in v2fly PR 4260
+DOMAIN-SUFFIX,beatsbydre.com.cn
+DOMAIN-SUFFIX,beats1.cn
+DOMAIN-SUFFIX,beats1.com.cn
+DOMAIN-SUFFIX,beats2.com.cn
+DOMAIN-SUFFIX,beats4.cn
+DOMAIN-SUFFIX,beatsep.cn
+
+# Apple-specific Alibaba CDN alias namespaces (not shared CDN root)
+DOMAIN-SUFFIX,apple.com.w.alikunlun.com
+DOMAIN-SUFFIX,cdn-apple.com.w.alikunlun.com
 
 # Apple IPv4 / IPv6 network ranges; official guide and AS714/AS6185 BGP reference
 # https://www.misp-project.org/warninglists/ (apple-ipv4 / apple-ipv6, 20260829)
