@@ -1,6 +1,6 @@
 # NAME: Global-Supplementary
 # UPDATED: 2026-11-28
-# TOTAL: 29
+# TOTAL: 83
 # DESC: Shared Clash / Loon proxy supplements; no inline policy.
 
 # --- GoMoney 钱包 ---
@@ -52,3 +52,69 @@ DOMAIN-SUFFIX,orbstack.dev
 # Network Tools
 DOMAIN-SUFFIX,globalping.io
 DOMAIN-SUFFIX,bgp.tools
+
+# Supplements from Sukka and MetaCubeX comparison (2026-11-28 audit)
+
+# Additional AI services
+DOMAIN-SUFFIX,artificialanalysis.ai
+DOMAIN-SUFFIX,cline.bot
+DOMAIN-SUFFIX,context7.com
+DOMAIN-SUFFIX,gamma.app
+DOMAIN-SUFFIX,nousresearch.com
+DOMAIN-SUFFIX,elevenlabsusercontent.com
+
+# Additional developer tools
+DOMAIN-SUFFIX,cal.com
+DOMAIN-SUFFIX,logto.io
+DOMAIN-SUFFIX,prisma.io
+DOMAIN-SUFFIX,codecov.io
+DOMAIN-SUFFIX,codepen.io
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,readme.com
+DOMAIN-SUFFIX,render.com
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,grafana.com
+DOMAIN-SUFFIX,grafana.net
+DOMAIN-SUFFIX,haproxy.com
+DOMAIN-SUFFIX,nextra.site
+DOMAIN-SUFFIX,proxmox.com
+DOMAIN-SUFFIX,circleci.com
+DOMAIN-SUFFIX,coveralls.io
+DOMAIN-SUFFIX,diagrams.net
+DOMAIN-SUFFIX,jsfiddle.net
+DOMAIN-SUFFIX,gitkraken.com
+DOMAIN-SUFFIX,prometheus.io
+DOMAIN-SUFFIX,codeforces.org
+DOMAIN-SUFFIX,codesandbox.io
+DOMAIN-SUFFIX,influxdata.com
+DOMAIN-SUFFIX,rfc-editor.org
+DOMAIN-SUFFIX,stackblitz.com
+DOMAIN-SUFFIX,producthunt.com
+DOMAIN-SUFFIX,tailwindcss.com
+DOMAIN-SUFFIX,packagephobia.com
+DOMAIN-SUFFIX,tortoisegit.org
+DOMAIN-SUFFIX,cachix.org
+
+# Additional network tools
+DOMAIN-SUFFIX,urlscan.io
+DOMAIN-SUFFIX,shodan.io
+DOMAIN-SUFFIX,peeringdb.com
+DOMAIN-SUFFIX,intodns.com
+DOMAIN-SUFFIX,dns-oarc.net
+DOMAIN-SUFFIX,dnschecker.org
+
+# Productivity and online services
+DOMAIN-SUFFIX,readwise.io
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grammarly.io
+DOMAIN-SUFFIX,convertio.co
+DOMAIN-SUFFIX,tinypng.com
+DOMAIN-SUFFIX,iconfinder.com
+DOMAIN-SUFFIX,postmarkapp.com
+DOMAIN-SUFFIX,ko-fi.com
+DOMAIN-SUFFIX,trustpilot.com
+DOMAIN-SUFFIX,trustpilot.net
+
+# Steam community
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamdb.info
