@@ -1,16 +1,13 @@
-# NAME: US_Supplementary_Rule
-# UPDATED: 2026-11-23
-# DESC: US Supplementary rules for Loon
+# NAME: Global-Supplementary
+# UPDATED: 2026-11-28
+# TOTAL: 19
+# DESC: Shared Clash / Loon proxy supplements; no inline policy.
 
 # --- GoMoney 钱包 ---
 DOMAIN-KEYWORD,gomoney
 
 # --- BitGet 钱包 ---
 DOMAIN-KEYWORD,bitkeep
-
-# --- 苹果推送服务 ---
-DOMAIN-SUFFIX,push.apple.com,PROXY
-DOMAIN-SUFFIX,push-apple.com.akadns.net,PROXY
 
 # Infini 核心域名
 DOMAIN-SUFFIX,infini.money
@@ -28,3 +25,14 @@ DOMAIN-SUFFIX,xasiat.com
 DOMAIN-SUFFIX,xascdn.li
 DOMAIN-SUFFIX,vbr.me
 DOMAIN-KEYWORD,wawashop
+
+# --- Developer tools and search (Sukka Global, 2026-10-30 snapshot) ---
+DOMAIN-SUFFIX,draw.io
+DOMAIN-SUFFIX,grep.app
+DOMAIN-SUFFIX,kagi.com
+DOMAIN-SUFFIX,npm.im
+DOMAIN-SUFFIX,npmx.dev
+
+# --- Box service dependency ---
+# https://support.box.com/hc/en-us/articles/360043696434-Configuring-A-Firewall-For-Box-Applications-and-Services
+DOMAIN-SUFFIX,boxcloud.com
