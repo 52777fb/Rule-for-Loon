@@ -1,6 +1,6 @@
 # NAME: Apple
 # UPDATED: 2026-11-28
-# TOTAL: 102
+# TOTAL: 108
 # Mainland China usage: global Apple infrastructure + mainland service and web domains.
 # Official: https://support.apple.com/zh-cn/101555
 # Reference: https://support.apple.com/en-us/101555
@@ -119,8 +119,18 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN,dispatcher.is.autonavi.com
 
-# Apple-owned network ranges listed in official enterprise guide
+# Apple IPv4 / IPv6 network ranges; official guide and AS714/AS6185 BGP reference
+# https://www.misp-project.org/warninglists/ (apple-ipv4 / apple-ipv6, 20260829)
+# IPv4
 IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,57.102.0.0/15,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/18,no-resolve
+
+# IPv6
 IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:0:1b00::/48,no-resolve
 IP-CIDR6,2620:149::/32,no-resolve
 IP-CIDR6,2a01:b740::/32,no-resolve
+IP-CIDR6,2a01:b747::/32,no-resolve
