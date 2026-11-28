@@ -12,3 +12,39 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+
+# Gemini
+DOMAIN-SUFFIX,gemini.google
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,geller-pa.googleapis.com
+
+# Google AI Studio
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+
+# Google AI Services
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN,jules.google.com
+DOMAIN,stitch.withgoogle.com
+DOMAIN,aida.googleapis.com
+DOMAIN-SUFFIX,g.ai
+
+# Authentication
+DOMAIN,accounts.google.com
+DOMAIN,accounts.gstatic.com
+DOMAIN,oauth2.googleapis.com
+
+# Gemini Dependencies
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN,ogs.google.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,www.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,optimizationguide-pa.googleapis.com
