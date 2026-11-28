@@ -13,6 +13,3 @@ payload:
 
   # Google WebRTC
   - 'AND,((NETWORK,udp),(DST-PORT,19302-19309))'
-
-  # Temporary QUIC Protection
-  - 'AND,((NETWORK,udp),(DST-PORT,443))'
