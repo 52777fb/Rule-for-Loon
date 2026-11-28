@@ -1,5 +1,5 @@
 # NAME: Priority-Direct
-# TOTAL: 13
+# TOTAL: 16
 # Shared Clash / Loon direct exceptions for verified rule conflicts.
 # Place before Advertising; keep security rejection rules ahead where applicable.
 # Apple iCloud diagnostics: https://support.apple.com/zh-cn/101555
@@ -28,3 +28,10 @@ DOMAIN,ccmdls.adobe.com
 
 # Java developer community
 DOMAIN-SUFFIX,tobebetterjavaer.com
+
+# Acer download
+DOMAIN,global-download.acer.com
+
+# Kaspersky updates and certificate revocation
+DOMAIN-SUFFIX,upd.kaspersky.com
+DOMAIN,crl.kaspersky.com
