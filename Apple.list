@@ -1,21 +1,22 @@
 # NAME: Apple
 # UPDATED: 2026-11-28
-# TOTAL: 62
-# Official reference: https://support.apple.com/en-us/101555
-# Additional selected endpoints from the previous Kelee Apple rule set.
-# Intended policy: DIRECT; place after explicit AI/proxy rules.
-# No shared CDN suffixes or USER-AGENT rules. IP matching uses no-resolve.
+# TOTAL: 102
+# Mainland China usage: global Apple infrastructure + mainland service and web domains.
+# Official: https://support.apple.com/zh-cn/101555
+# Reference: https://support.apple.com/en-us/101555
+# Community: https://github.com/v2fly/domain-list-community/blob/master/data/apple
+# Community: https://github.com/v2fly/domain-list-community/blob/master/data/icloud
+# Selected aliases from the original Kelee Apple.yaml; not all community aliases are independently verified.
+# DIRECT; explicit service exceptions and higher-priority blocks may override this set.
+# No foreign-country storefront suffixes, shared CDN wildcards, or USER-AGENT rules.
+# IP rules use no-resolve. Region-specific availability is not changed by this rule set.
 
-# Apple core and device services
+# Global Apple device, account, store and content infrastructure
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,apple-dns.cn
-DOMAIN-SUFFIX,apple-dns.com.cn
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,cdn-apple-mapkit.com
 DOMAIN-SUFFIX,appleid.com
@@ -25,33 +26,78 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appletv.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,applepodcasts.com
 DOMAIN-SUFFIX,shazam.com
 DOMAIN-SUFFIX,siri.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mac.com
-
-# iCloud and content
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-content.com.cn
-DOMAIN-SUFFIX,icloud-sandbox.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,appleschoolcontent.com
 DOMAIN-SUFFIX,axm-usercontent-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud-sandbox.com
 
-# Apple-specific CDN endpoints (no shared CDN wildcard)
+# Mainland China Apple and iCloud infrastructure / local web aliases
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com.cn
+DOMAIN-SUFFIX,apple-dns.cn
+DOMAIN-SUFFIX,apple-dns.com.cn
+DOMAIN-SUFFIX,apple-appstore.cn
+DOMAIN-SUFFIX,appleappstore.cn
+DOMAIN-SUFFIX,appstoreapple.cn
+DOMAIN-SUFFIX,apple-store.cn
+DOMAIN-SUFFIX,applestore.cn
+DOMAIN-SUFFIX,applestore.com.cn
+DOMAIN-SUFFIX,apple-maps.cn
+DOMAIN-SUFFIX,apple-ibooks.cn
+DOMAIN-SUFFIX,applecenter.cn
+DOMAIN-SUFFIX,applecenter.com.cn
+DOMAIN-SUFFIX,applecomputer.cn
+DOMAIN-SUFFIX,applecomputer.com.cn
+DOMAIN-SUFFIX,appledns.cn
+DOMAIN-SUFFIX,appledns.com.cn
+DOMAIN-SUFFIX,applesiri.cn
+DOMAIN-SUFFIX,apple-icloud.cn
+DOMAIN-SUFFIX,appleicloud.cn
+DOMAIN-SUFFIX,icloud-apple.cn
+DOMAIN-SUFFIX,icloudapple.cn
+DOMAIN-SUFFIX,icloud.net.cn
+DOMAIN-SUFFIX,xn--czrs0t4phtr3a.cn
+DOMAIN-SUFFIX,xn--fiqs8sxootzz.cn
+DOMAIN-SUFFIX,xn--ohq11k7pl25iyo8a.cn
+
+# Apple development and accessories websites
+DOMAIN-SUFFIX,swift.org
+DOMAIN-SUFFIX,webkit.org
+DOMAIN-SUFFIX,researchkit.org
+DOMAIN-SUFFIX,carekit.org
+DOMAIN-SUFFIX,beatsbydre.com
+DOMAIN-SUFFIX,beatselectronics.com
+DOMAIN-SUFFIX,applepaycash.cn
+DOMAIN-SUFFIX,applepaycash.com.cn
+DOMAIN-SUFFIX,applepaysupplies.cn
+DOMAIN-SUFFIX,applepaysupplies.com.cn
+DOMAIN-SUFFIX,homepod.cn
+DOMAIN-SUFFIX,ecgapp.com.cn
+DOMAIN-SUFFIX,livephotos.cn
+DOMAIN-SUFFIX,livephotos.com.cn
+
+# Apple-specific CDN and DNS aliases (selected from original and community lists)
 DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,push-apple.com.akadns.net
 DOMAIN-SUFFIX,origin-apple.com.akadns.net
 DOMAIN-SUFFIX,ls-apple.com.akadns.net
 DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,icloud.com.akadns.net
+DOMAIN-SUFFIX,cdn-apple.com.akadns.net
 DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,apple.com.cdn20.com
 DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
 DOMAIN-SUFFIX,apple.com.mwcname.com
@@ -61,8 +107,9 @@ DOMAIN,itunes.com.edgekey.net
 DOMAIN,apple-events.akamaized.net
 DOMAIN,p-events-delivery.akamaized.net
 DOMAIN,e16991.b.akamaiedge.net
+DOMAIN,courier-push-apple.com.akadns.net
 
-# Certificate validation and Apple-specific third-party endpoints
+# Certificate validation and specific Apple service dependencies
 DOMAIN,crl3.digicert.com
 DOMAIN,crl4.digicert.com
 DOMAIN,ocsp.digicert.cn
@@ -72,7 +119,7 @@ DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN,dispatcher.is.autonavi.com
 
-# Apple-owned IP ranges published in official enterprise network guide
+# Apple-owned network ranges listed in official enterprise guide
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR6,2403:300::/32,no-resolve
 IP-CIDR6,2620:149::/32,no-resolve
