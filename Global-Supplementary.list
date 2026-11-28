@@ -1,6 +1,6 @@
 # NAME: Global-Supplementary
 # UPDATED: 2026-11-28
-# TOTAL: 19
+# TOTAL: 29
 # DESC: Shared Clash / Loon proxy supplements; no inline policy.
 
 # --- GoMoney 钱包 ---
@@ -36,3 +36,19 @@ DOMAIN-SUFFIX,npmx.dev
 # --- Box service dependency ---
 # https://support.box.com/hc/en-us/articles/360043696434-Configuring-A-Firewall-For-Box-Applications-and-Services
 DOMAIN-SUFFIX,boxcloud.com
+
+# AI Services
+DOMAIN-SUFFIX,quillbot.com
+DOMAIN-SUFFIX,roboflow.com
+DOMAIN-SUFFIX,wordtune.com
+
+# Developer Tools
+DOMAIN-SUFFIX,jsr.io
+DOMAIN-SUFFIX,npm.io
+DOMAIN-SUFFIX,lynxjs.org
+DOMAIN-SUFFIX,gitkraken.dev
+DOMAIN-SUFFIX,orbstack.dev
+
+# Network Tools
+DOMAIN-SUFFIX,globalping.io
+DOMAIN-SUFFIX,bgp.tools
