@@ -1,5 +1,5 @@
 # NAME: Priority-Direct
-# TOTAL: 8
+# TOTAL: 13
 # Shared Clash / Loon direct exceptions for verified rule conflicts.
 # Place before Advertising; keep security rejection rules ahead where applicable.
 # Apple iCloud diagnostics: https://support.apple.com/zh-cn/101555
@@ -15,3 +15,16 @@ DOMAIN,ztd.dds.microsoft.com
 DOMAIN-SUFFIX,amazonaws.cn
 DOMAIN-SUFFIX,amazonaws.com.cn
 DOMAIN-SUFFIX,amazonwebservices.com.cn
+
+# China domestic services
+DOMAIN,gouhuo.qq.com
+DOMAIN,roco.qq.com
+
+# China NTP
+DOMAIN-SUFFIX,cn.pool.ntp.org
+
+# Software download
+DOMAIN,ccmdls.adobe.com
+
+# Java developer community
+DOMAIN-SUFFIX,tobebetterjavaer.com
