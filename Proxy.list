@@ -1,4 +1,5 @@
 # NAME: IP-Check
+# TOTAL: 61
 
 # IP & DNS Leak Detection
 DOMAIN-SUFFIX,browserleaks.com
@@ -64,3 +65,13 @@ DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,pixelscan.net
 DOMAIN-SUFFIX,myipstack.com
 DOMAIN-SUFFIX,dns-leak.com
+
+# Supplements from Sukka and MetaCubeX comparison (2026-11-28 audit)
+
+# Additional DNS and privacy checks
+DOMAIN-SUFFIX,dnsleaktest.org
+DOMAIN-SUFFIX,dns-check.info
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,mydnsleaktest.com
+DOMAIN-SUFFIX,privacytest.info
+DOMAIN-SUFFIX,ovpnleaktest.com
