@@ -1,5 +1,0 @@
-# NAME: Priority-Reject
-
-PROTOCOL,QUIC
-PROTOCOL,STUN
-DOMAIN-KEYWORD,stun
