@@ -29,6 +29,18 @@ DOMAIN-SUFFIX,db-ip.com
 DOMAIN-SUFFIX,maxmind.com
 DOMAIN-SUFFIX,spur.us
 
+# Additional IP Quality Check
+DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,iplense.cc
+DOMAIN-SUFFIX,ipsuper.com
+DOMAIN-SUFFIX,ipure.dev
+DOMAIN-SUFFIX,ipinfo.cv
+DOMAIN-SUFFIX,ip.net.coffee
+DOMAIN-SUFFIX,ip.skk.moe
+DOMAIN-SUFFIX,ip.cx
+DOMAIN-SUFFIX,ipip.la
+
 # Public IP Lookup
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ifconfig.me
